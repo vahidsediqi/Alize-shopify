@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("./fonts/Silk\ Serif\ Black.otf");
+    src: url("./fonts/") format("woff"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    border: 1px solid #707070 !important;
+    color: #A86558 !important;
+}
+
+.title{
+    font-family: 'Noto Serif', serif;
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.text-right{
+    text-align: right;
+}
+.banner-outer {
+    background-image: url('./home-banner.png');
+    height: 850px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    width: 90%;
+}
+
+.home-banner .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    color: #A86558;
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+}
+
+.banner-content-wrapper{
+    padding-right: 35px;
+}
+
+.why-choose-us-title{
+    color: #656E5C;
+    font-family: 'Noto Serif', serif;
+    margin-top: 20px;
+    
+}
+
+.why-choose-us-content-outer{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.why-choose-up-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-footer-wrapper{
+    background-image: url('./bg-above-footer.png');
+    background-size: cover;
+    background-position:  center top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pre-footer-img {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    top: 50%;
+    transform: translateY(-40%);
+}
