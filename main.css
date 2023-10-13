@@ -77,6 +77,7 @@
     align-items: center;
 }
 
+/* homepage prefooter */
 .pre-footer-wrapper{
     background-image: url('./bg-above-footer.png');
     background-size: cover;
@@ -94,3 +95,30 @@
     top: 50%;
     transform: translateY(-40%);
 }
+
+@media only screen and (max-width: 800px) {
+    .home-banner{
+        padding: 120px 25px 50px 25px !important;
+    }
+    .pre-footer-wrapper{
+      padding: 120px 25px 50px 25px;
+      height: auto;
+    } 
+
+    .why-choose-us-content-outer{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .why-choose-us-row{
+        padding: 120px 25px 50px 25px;
+    }
+
+    .pre-footer-img {
+        display: none;
+    }
+
+  }
